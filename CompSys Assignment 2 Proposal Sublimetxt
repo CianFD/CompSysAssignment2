@@ -1,0 +1,26 @@
+# Bark-Alert
+#### Student Name: *Cian Dunne*   Student ID: *20091471*
+
+A sound sensor is listening to the room - most likely the sitting room. Multiple sensors could be positioned in the house, if necessary but I will focus on one for now. When the volume level reaches a certain decibel limit say 85-90dB, which will indicate the dog has begun to bark, an alert will be sent to the owner’s phone telling them the dog has begun barking.
+The owner will also receive a prompt to trigger a camera in the room to view the dog and what they are barking at - a passing car, a person walking along the street, an unknown individual approaching the house.
+A speaker will be attached to the sensor - when the alert is triggered the speaker will emit a frequency that is imperceptible to humans but mildly uncomfortable for dogs.
+The frequency will occur in short bursts (2-3 seconds with 20 second intervals) until the sensor determines sound levels have dropped below 70dB again.
+Once the sensor has determined the barking has subsided, a note of the date, time, and length of time spent barking will be sent to a Database.
+A weekly report will be generated for the barking determining the average amount of time spent barking per day and comparing it to the level of barking from the previous week.
+
+
+## Tools, Technologies and Equipment
+
+LUbuntu Virtual Machine running via Virtual Box
+QTerminal
+Python3 Programming Language
+Raspberry Pi 3 Model B+
+Raspberry Pi Camera Module V2 OR Wansview 1080P Q5 Cloud Full HD Camera
+Phidget Sound Sensor & VINT Hub
+T-Cobbler Plus - GPIO Breakout, Breadboard, Buzzer OR PiTop Speaker
+MySQL Database
+
+## Project Repository
+https://github.com/CianFD/CompSysAssignment2.git
+
+
